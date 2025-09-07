@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/*Diseño del cuerpo de la pagina, centrado*/
+body{
+    background-color:lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Contenedor Principal*/
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/*Formato para títulos h2*/
+h2{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/*Formato para los Formularios*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*Formato de input*/
+input[type="number"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+/*Formato de Botones*/
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*Formato botones cuando hover*/
+button:hover{
+    background-color: #45a049;
+}
+
+/*Formato de resultados*/
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #222;
+}
