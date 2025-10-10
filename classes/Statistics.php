@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Classes;
+
 /**
  * Clase Statistics
  * Calcula media, desviación estándar, mínimo y máximo de un conjunto de números.
