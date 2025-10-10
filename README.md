@@ -24,12 +24,5 @@ La arquitectura se organiza por módulos (`problem1/` ... `problem10/`), todos a
 - Nombres: **StudlyCaps** para clases, **camelCase** para métodos/variables
 - Separación de responsabilidades (cada módulo independiente)
 
-## Siguientes pasos
-1. Crear carpetas `problem1` a `problem10`.
-2. Implementar las clases específicas (`Statistics`, `SalesLedger`, etc.).
-3. Incluir en cada vista el footer y enlace al menú principal usando `Utils::renderBackToMenuLink('index.php')`.
-
----
-
-**Autor:** Tiguere  
+**Autor:** David
 **Fecha de generación:** 9 de octubre de 2025
